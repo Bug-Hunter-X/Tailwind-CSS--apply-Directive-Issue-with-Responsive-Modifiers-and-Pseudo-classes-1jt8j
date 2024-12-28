@@ -1,0 +1,1 @@
+The issue is caused by an unexpected behavior of Tailwind's `@apply` directive when used with pseudo-classes like `:hover` within a responsive modifier like `md:`.  The `@apply` directive doesn't seem to correctly inherit the responsive modifier, leading to the styles not being applied on hover at the specified breakpoint.
